@@ -37,64 +37,8 @@
 <!--=================== blog section start ===================-->
 <section class="section">
   <div class="container">
-    {{with site.Params.featured_post_title}}
-    <div class="section-title">
-      <h2 class="h4 title-border">{{ . | markdownify}}</h2>
-    </div>
-    {{end}}
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="border rounded d-lg-flex p-4 mb-5">
-          <!-- big featured post -->
-          <div class="col-lg-6 me-lg-4 mb-5 mb-lg-0">
-            {{ range first 1 (where site.RegularPages "Type" "featured") }}
-            {{ .Render "post" }}
-            {{ end }}
-          </div>
-          <!-- small featured post -->
-          <div class="col-lg-6 pe-4 blog-card-list scroll-list">
-            {{ range after 1 (where site.RegularPages "Type" "featured") }}
-            <div class="card rounded-0">
-              <div class="d-sm-flex">
-                <!-- image path -->
-                {{ $imagePath:= .Params.image }}
-                {{ if $imagePath }}
-                <!-- image CDN -->
-                {{ if hasPrefix $imagePath "http" }}
-                <img loading="lazy" decoding="async" src="{{ $imagePath | safeURL }}" alt="{{ .Title }}"
-                  class="img-fluid rounded-4 align-self-start" width="105" height="85">
-                {{ else }}
-                <!-- /image cdn -->
-
-                <!-- image processing for single device -->
-                {{ if fileExists (add `assets/` $imagePath) }}
-                {{ $image:= resources.Get $imagePath }}
-                {{ $imageFallback:= $image.Fill "105x85" }}
-                {{ $imageWebp:= $image.Fill "105x85 webp" }}
-                <img loading="lazy" decoding="async" src="{{$imageWebp.RelPermalink}}" alt="{{ .Title }}" width="105" height="85"
-                  class="img-fluid rounded-4 align-self-start"
-                  onerror="this.onerror='null';this.src='{{$imageFallback.RelPermalink}}'">
-                {{ end }}
-                <!-- /image processing for single device -->
-                {{ end }}
-                {{ end }}
-                <div class="card-body ps-sm-3">
-                  <h3 class="h6">
-                    <a class="title-linked" href="{{.RelPermalink}}">{{.Title | markdownify}}</a>
-                  </h3>
-                  <ul class="list-inline card-meta d-flex align-items-center mb-3">
-                    <li class="list-inline-item d-flex align-items-center">
-                      <i class="fas fa-calendar me-2"></i>
-                      <span>{{ time.Format ":date_long" .PublishDate }}</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            {{ end }}
-          </div>
-        </div>
-
         <!-- advertisement -->
         {{ with site.Params.advertisement }}
         <div class="mb-5">
