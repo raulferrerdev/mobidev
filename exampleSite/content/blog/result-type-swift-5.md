@@ -9,14 +9,14 @@ draft: false
 ---
 
 In [Swift 5](https://swift.org/blog/swift-5-released/) several new features have been introduced. One of them is the **Result** type. The **Result** type in swift 5 is an enum that contains two cases: *success* and *failure*.
-{{< highlight swift >}}
+{{< highlight swift  "linenos=table,linenostart=1" >}}
 public enum Result<Success, Failure: Error> {
     case success(Success), failure(Failure)
 }
 {{< / highlight >}}
 
 **Result** permite manejar errores para API asíncronas de una forma automática. Por ejemplo, para realizar una llamada a un servidor que devuelve una lista de usuarios (struct User), podemos implementar el siguiente método:
-{{< highlight swift >}}
+{{< highlight swift  "linenos=table,linenostart=1" >}}
 func fetchUsers(url: URL, completion: @escaping (Result<[User], Error>) -> Void) {
     URLSession.shared.dataTask(with: url) { data, response, error in
         guard let data = data, error == nil else {
@@ -38,7 +38,7 @@ func fetchUsers(url: URL, completion: @escaping (Result<[User], Error>) -> Void)
 {{< / highlight >}}
 
 Now, we can call the *fetchUsers* method as follows:
-{{< highlight swift >}}
+{{< highlight swift  "linenos=table,linenostart=1" >}}
 let  url = 'FETCH_USERS_URL'
 
 fetchUsers(url: url) { result in
