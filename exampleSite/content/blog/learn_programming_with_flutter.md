@@ -10,7 +10,7 @@ draft: false
 In mobile application development, along with native development platforms (iOS and Android), there are others, called hybrids, that allow developing applications for multiple platforms while maintaining a common code base: *PhoneGap*, *Ionic*, *React Native*, *Xamarin* and from recently, **Flutter**. Do you want to learn to program with Flutter? Here we will take the first steps.
 
 #### Let’s see what Flutter is
-![Flutter Logo](images/post/learn_programming_with_flutter_1.png)
+![Flutter Logo](/exampleSite/assets/images/post/learn_programming_with_flutter_1.png)
 [Flutter](https://flutter.dev/) is an open source SDK, originating around 2015, but not officially released by Google until December 2018 released in 2017 by Google. Flutter uses Dart as a programming language, plus C++ and Skia as rendering engines.
 #### The Dart programming language
 Dart logo
