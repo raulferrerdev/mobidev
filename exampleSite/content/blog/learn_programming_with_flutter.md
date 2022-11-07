@@ -10,10 +10,12 @@ draft: false
 In mobile application development, along with native development platforms (iOS and Android), there are others, called hybrids, that allow developing applications for multiple platforms while maintaining a common code base: *PhoneGap*, *Ionic*, *React Native*, *Xamarin* and from recently, **Flutter**. Do you want to learn to program with Flutter? Here we will take the first steps.
 
 #### Let’s see what Flutter is
-![Flutter Logo](/exampleSite/assets/images/post/learn_programming_with_flutter_1.png)
+{{< image src="images/post/learn_programming_with_flutter_1.png">}}
+
 [Flutter](https://flutter.dev/) is an open source SDK, originating around 2015, but not officially released by Google until December 2018 released in 2017 by Google. Flutter uses Dart as a programming language, plus C++ and Skia as rendering engines.
 #### The Dart programming language
-Dart logo
+{{< image src="images/post/learn_programming_with_flutter_2.png">}}
+
 
 [Dart](https://dart.dev/) is an open source language, the first stable version of which was released in 2011. The idea of Dart is to facilitate its use by developers, so it has a very wide series of tools and utilities integrated: its own dependency manager, compilers … and, in addition, it presents a syntax similar to Javascript or Java.
 
@@ -88,8 +90,8 @@ If we want to develop, compile and test applications on iOS and Android, we need
 
 
 As you can see, in this case everything related to Android development would be missing.
-flutter doctor
-Result of the flutter doctor command.
+{{< image src="images/post/learn_programming_with_flutter_3.png">}}
+
 #### Our first app on Flutter
 
 To create our first application in fluter we simply have to go to the directory where we want to create it:
@@ -110,7 +112,8 @@ Where ‘my_first_flutter_app’ you can change it to the name you want to give 
 Once this is done, flutter launches a process of creating the application’s file and file structure.
 
 If you now access the directory you will see something similar to the following:
-Flutter app folderFolder and file structure (updated).
+
+{{< image src="images/post/learn_programming_with_flutter_4.png">}}
 
 We can see specific folders for Android and iOS (with the specific files for each of these platforms). Update, the web folder shows us the content if we compile the app to be shown as web.
 #### And we start the application!
@@ -121,7 +124,8 @@ Now we are going to launch the application that we have created. To do this, if 
 {{< / highlight >}}
 
 Flutter will start the process of compiling, linking and signing the app, and it will run it in the simulator:
-
+{{< image src="images/post/learn_programming_with_flutter_5.png">}}
+{{< image src="images/post/learn_programming_with_flutter_6.png">}}
 
 #### Conclusions
 
