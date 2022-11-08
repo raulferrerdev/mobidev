@@ -47,7 +47,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [banner]
 enable = true
 title_large = "Welcome **!**"
-title_small = "to Raúl Ferrer Blog"
+title_small = "to Mobile Thinking"
 image = "images/banner.png"
 background_image = "/images/banner-bg-shape.svg"
 content = "If you like the world of software development, maybe here you will find what you are looking for."
@@ -61,8 +61,8 @@ button_link = "about/"
 
 # cookies
 [cookies]
-enable = false
-expire_days = 30
+enable = true
+expire_days = 2
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"
 
