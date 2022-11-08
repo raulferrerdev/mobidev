@@ -5,13 +5,6 @@ draft: false
 
 ---
 
----
-title: "Privacy Policy"
-description: "this is meta-description"
-draft: false
-
----
-
 #### A. Introduction
 
 The privacy of our website visitors is very important to us, and we are committed to safeguarding it. This policy explains what we will do with your personal information.
