@@ -33,7 +33,7 @@ From the point of view of performance, metrics are obtained, for example, on:
 ### Use
 
 In order to receive metric reports, we need to add a subscription to *MXMetricManager* (for example in the *AppDelegate* class):
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 class AppDelegate: UIResponder, UIApplicationDelegate, MXMetricManagerSubscriber {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

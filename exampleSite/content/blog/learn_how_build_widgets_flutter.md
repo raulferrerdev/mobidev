@@ -21,7 +21,7 @@ To know how to build in Flutter, you have to know that there are two types of wi
 #### Stateless Widgets
 
 They are called stateless or static widgets. These are widgets that do not save any type of state, that is, they do not have values that can change. For example, an Image widget that only displays an image on the screen.
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 class Car extends StatelessWidget {
   const car({ Key key }) : super(key: key);
 
@@ -34,7 +34,7 @@ class Car extends StatelessWidget {
 
 
 As you can see, the declaration of a Stateless widget is done by creating a class (*Car*) and making it extend from *StatelessWidget* (extends *StatelessWidget*). Inside we see that there is a build method that builds the widget (in this case it contains a *Container* widget that contains another *Text* widget).
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 class Car extends StatefulWidget {
   const Car({
     Key key,
@@ -80,7 +80,7 @@ Next you can see the build function, made up of a *Container* type widget, which
 We have just seen an example of a widget that contains different nested widgets, following a parent-child structure. This case is quite simple, but as the design of an interface becomes more complicated, this structure has become longer and more complex. This is what is known as a **widget tree**.
 
 If you have read my [previous article](https://raulferrergarcia.netlify.app/blog/learn_programmming_with_flutter/) on Flutter and have created your first application, you will have seen in the example code (I recommend *Visual Studio Code* for this) the following block:
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 

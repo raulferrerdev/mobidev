@@ -26,7 +26,7 @@ Colors that adapt automatically to the style of the interface should be used. Fo
 {{< image src="images/post/add_dark_mode_ios_1.png">}}
 
 To use these colors, for example, from the code, just write:
-{{< highlight swift "linenos=table,linenostart=1" >}}
+{{< highlight swift "linenos=inline,linenostart=1" >}}
  let color = UIColor.systemGreen
 {{< / highlight >}}
 

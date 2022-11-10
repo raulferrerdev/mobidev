@@ -29,13 +29,13 @@ To use the new color that we have created from the graphical interface, we simpl
 To use the new color created directly in the code, the best way is to create an extension for the UIColor class and then create a variable with the color name.
 
 For example:
-{{< highlight swift "linenos=table,linenostart=1" >}}
+{{< highlight swift "linenos=inline,linenostart=1" >}}
 extension UIColor {
   static let greenBackgroundColor: UIColor = UIColor(named: "GreenBackgroundColor")!
 }
 {{< / highlight >}}
 
 Which allows us to use this new color as follows:
-{{< highlight swift "linenos=table,linenostart=1" >}}
+{{< highlight swift "linenos=inline,linenostart=1" >}}
  let labelColor = UIColor.greenBackgroundColor
 {{< / highlight >}}

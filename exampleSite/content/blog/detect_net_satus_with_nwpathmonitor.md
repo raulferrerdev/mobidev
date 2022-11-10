@@ -10,13 +10,13 @@ draft: false
 With iOS 12, Apple has introduced Network, a framework that includes the NWPathMonitor class. NWPathMonitor gives us the means to monitor changes of state in the internet connection (so it is no longer necessary to use the Reachability class, in applications that support iOS 12 onwards). Therefore, we can set aside the Reachability library, and detect the state of the network with NWPathMonitor.
 
 To use this new way to check the status of the internet connection, we first need to create an instance of NWPathMonitor:
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
  let monitor = NWPathMonitor()
 {{< / highlight >}}
 
 
 We can also instantiate the NWPathMonitor class indicating a particular type of network that we want to check. For example, to check WiFi connections:
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
  let monitor = NWPathMonitor(requiredInterfaceType: .wifi)
 {{< / highlight >}}
 
@@ -29,7 +29,7 @@ NWPathMonitor can check different types of interfaces:
 * **wiredEthernet.** If the device is connected to the internet by cable.
 
 Detection of changes in the state of the internet connection are made through the pathUpdateHandler property:
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 monitor.pathUpdateHandler = { path in
     if path.status == .satisfied {
         print("!Hay conexión con internet!")
@@ -45,7 +45,7 @@ path is of NWPath type and, according to Apple documentation, status can be:
 
 For more information on the possibilities of NWPath we can access the Apple documentation.
 Finally, in order to start receiving information about changes in the state of the internet connection, we need to call the start () method. The start () method needs a queue to do this job:
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 let queue = dispatchQueue.global(qos: .background)
 monitor.start(queue: queue)
 {{< / highlight >}}
@@ -55,7 +55,7 @@ Once we no longer need to know the changes in the state of the internet connecti
 #### Code example
 
 For example, suppose we want to know at all times the status of the internet connection throughout the application. For this we can use a class of type Singleton:
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 import Foundation
 import Network
 
@@ -99,7 +99,7 @@ class NetMonitor {
 
 
 Where ConnectionType is an enum that contains the specific cases of connectivity for our app. For example:
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 public enum ConnectionType {
     case wifi
     case ethernet
@@ -110,7 +110,7 @@ public enum ConnectionType {
 
 
 To use this Singleton type class:
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 let netConnection = NetMonitor.shared
 netConnection.start() // Internet connection monitoring starts
 netConnection.cancel() // Internet connection monitoring stops

@@ -19,7 +19,7 @@ If we want to implement a database in our application following SOLID principles
 
 First, we must establish a protocol that declares the methods for interacting with the database. To decouple the type of object that these methods receive with the type of database, we will establish a protocol, Storable, that all objects must adopt:
 
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 protocol Storable { }
 
 extension Object: Storable { } // Para la base de datos Realm
@@ -29,7 +29,7 @@ extension NSManagedObject: Storable { } // Para la base de datos Core Data
 
 Now we can develop the StorageManager protocol:
 
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 protocol StorageManager {
   /// Save Object into Realm database
   /// - Parameter object: Realm object (as Storable)
@@ -67,7 +67,7 @@ protocol StorageManager {
 
 Where Sorted is a struct that allows us to sort the results obtained through a specific parameter (key):
 
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 struct Sorted {
   var key: String
   var ascending: Bool = true

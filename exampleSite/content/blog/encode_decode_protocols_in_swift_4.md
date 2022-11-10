@@ -26,7 +26,7 @@ Array, Dictionary, Optional (if contain Codable types)
 #### Decodable
 
 Let’s see now how to work with the Decodable protocol. We will assume that our application calls a web service that returns the information of a specific user in JSON format:
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 let userJson = """
 {
   "id": "39631383-4e2a-48ef-bb40-f9d896392eab",
@@ -40,7 +40,7 @@ let userJson = """
 
 To pass this information to an instance of our struct User:
 
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 struct User: Codable { // User conforms to Decodable protocol
   let id: String
   let firstName: String
@@ -61,7 +61,7 @@ do {
 #### Encodable
 
 If we want to obtain a JSON from an instance of our struct User:
-{{< highlight swift  "linenos=table,linenostart=1" >}}
+{{< highlight swift  "linenos=inline,linenostart=1" >}}
 var user = User()
 user.id = "39631383-4e2a-48ef-bb40-f9d896392eab"
 user.firstName = "Jane"
