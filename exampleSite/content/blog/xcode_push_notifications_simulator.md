@@ -1,12 +1,4 @@
----
-title: "How to test push notifications in Xcode 11.4 simulator"
-description: ""
-image: "images/post/xcode_push_notifications_simulator.png"
-date: 2020-02-25T18:19:25+06:00
-categories: ["Notifications","Development", "Swift"]
-type: "regular" # available types: [featured/regular]
-draft: false
----
+
 **Push notifications** are the messages that are sent, to an application installed on a device, from a server. In the case of iOS applications, the Apple Push Notifications Service (APN) is used. Until now, the only way to test these notifications was on physical devices. However, this has changed with the beta version of [Xcode 11.4](https://developer.apple.com/documentation/xcode_release_notes/xcode_11_4_beta_2_release_notes), with which we can already test the push notifications in the simulator.
 #### Enable notifications in the simulator
 
@@ -40,6 +32,7 @@ The values that we pass in the options parameter is a list with the [authorisati
 * **providesAppNotificationSettings.** It allows to show a button in the notifications.
 * **provisional.** If only this option is used, the user will not require authorisation, but it will be displayed silently in the Notification Center.
 * **announcement.** Let Siri read the messages automatically and transmit them to the AirPods.
+
 {{< image src="images/post/xcode_push_notifications_simulator_1.png">}}
 
 
