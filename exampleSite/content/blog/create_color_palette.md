@@ -4,7 +4,7 @@ description: ""
 image: "images/post/create_color_palette.jpg"
 date: 2020-01-04T18:19:25+06:00
 categories: ["Swift","Development"]
-type: "regular" # available types: [featured/regular]
+type: "Swift" # available types: [featured/regular]
 draft: false
 ---
 The Asset Catalog of colors are the color palettes that we can create, from the publication of iOS 11 and Xcode 9, to have in a single point the definition of all the colors of our applications.

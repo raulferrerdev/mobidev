@@ -4,7 +4,7 @@ description: ""
 image: "images/post/what_is_metrickit.jpg"
 date: 2019-10-26T18:19:25+06:00
 categories: ["Swift","Development"]
-type: "regular" # available types: [featured/regular]
+type: "Swift" # available types: [featured/regular]
 draft: false
 ---
 

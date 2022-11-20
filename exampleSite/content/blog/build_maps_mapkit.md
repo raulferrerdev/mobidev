@@ -4,7 +4,7 @@ description: ""
 image: "images/post/build_maps_mapkit.png"
 date: 2020-05-04T18:19:25+06:00
 categories: ["Swift","MapKit"]
-type: "regular" # available types: [featured/regular]
+type: "SIY" # available types: [featured/regular]
 draft: false
 ---
 Have you noticed the number of applications that show us a map in which they place us, indicate interesting places nearby, mark routes …? In this article I will explain how to build a maps and routes application with [MapKit](https://developer.apple.com/documentation/mapkit).

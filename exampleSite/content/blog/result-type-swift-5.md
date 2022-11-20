@@ -4,7 +4,7 @@ description: ""
 image: "images/post/result_type_in_swift_5.png"
 date: 2018-04-06T18:19:25+06:00
 categories: ["Swift","Development"]
-type: "regular" # available types: [featured/regular]
+type: "Swift" # available types: [featured/regular]
 draft: false
 ---
 

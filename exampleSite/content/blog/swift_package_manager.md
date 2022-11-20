@@ -4,7 +4,7 @@ description: ""
 image: "images/post/swift_package_manager.png"
 date: 2020-04-13T18:19:25+06:00
 categories: ["Swift","Development", "Dependencies"]
-type: "regular" # available types: [featured/regular]
+type: "Swift" # available types: [featured/regular]
 draft: false
 ---
 **Swift Package Manager** (SPM) was the dependency manager for Swift that Apple released together with Swift in 2015. Swift Package Manager joined other well-known dependency managers, such as [CocoaPods](https://cocoapods.org/) or [Carthage](https://github.com/Carthage/Carthage). However, it was not until the publication of Xcode 11 that this tool was integrated into Xcode itself, which made it easier to use. Now we are going to learn how to use Swift Package Manager.

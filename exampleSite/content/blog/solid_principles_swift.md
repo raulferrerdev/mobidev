@@ -4,7 +4,7 @@ description: ""
 image: "images/post/solid_principles_swift.png"
 date: 2020-02-07T18:19:25+06:00
 categories: ["Architecture","Development", "Swift"]
-type: "regular" # available types: [featured/regular]
+type: "Swift" # available types: [featured/regular]
 draft: false
 ---
 As a developer, you probably use or have heard about [SOLID principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod). This acronym, introduced by [Robert C. Martin](https://twitter.com/unclebobmartin) (Uncle Bob), in his book [Agile Software Development: Principles, Patterns, and Practices](https://www.goodreads.com/book/%20show%20/%2084985.Agile_Software_Development_Principles_Patterns_and_Practices), refers to five basic principles of object-oriented programming, which are related to Design Patterns.

@@ -4,7 +4,7 @@ description: ""
 image: "images/post/criptokit_tutorial.png"
 date: 2020-02-17T18:19:25+06:00
 categories: ["CryptoKit","Development", "Swift"]
-type: "regular" # available types: [featured/regular]
+type: "Swift" # available types: [featured/regular]
 draft: false
 ---
 In this article, we are going to see an introduction tutorial to [CryptoKit](https://developer.apple.com/videos/play/wwdc2019/709/), presented by Apple on WWDC19, and how it can be used in applications developed for iOS13. CryptoKit allows, for example, the exchange of public and private keys, so that you could get to make purchases from an iPhone with the cryptocurrencies (Bitcoin, for example) stored in it.

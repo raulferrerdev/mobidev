@@ -4,6 +4,7 @@
   background-position: left bottom;
   background-size: contain;
   padding-top: 40px;
+  background-color: #fafafa;
 
   h1 strong {
     color: $color-primary;
@@ -102,6 +103,11 @@
     background-color: $color-primary;
     color: $white;
   }
+}
+
+.section-btn {
+  width: 90%;
+  margin-top: 10px;
 }
 
 .scroll-list {

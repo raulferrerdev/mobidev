@@ -4,7 +4,7 @@ description: ""
 image: "images/post/learn_programming_with_flutter_intro.jpg"
 date: 2019-12-28T18:19:25+06:00
 categories: ["Dart","Development", "Flutter"]
-type: "regular" # available types: [featured/regular]
+type: "Flutter" # available types: [featured/regular]
 draft: false
 ---
 In mobile application development, along with native development platforms (iOS and Android), there are others, called hybrids, that allow developing applications for multiple platforms while maintaining a common code base: *PhoneGap*, *Ionic*, *React Native*, *Xamarin* and from recently, **Flutter**. Do you want to learn to program with Flutter? Here we will take the first steps.

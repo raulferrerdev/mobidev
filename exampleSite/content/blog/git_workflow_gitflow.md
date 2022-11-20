@@ -4,7 +4,7 @@ description: ""
 image: "images/post/git_workflow_gitflow.png"
 date: 2021-07-20T18:19:25+06:00
 categories: ["Architecture","Git", "Gitflow"]
-type: "regular" # available types: [featured/regular]
+type: "Swift" # available types: [featured/regular]
 draft: false
 ---
 When developing software we find ourselves with the need to manage the changes that are being made in the code and that, when working as a team, all team members always have a copy of this code in which they can work and, later, integrate these changes. To facilitate this work we have version control systems, such as **Git**, which allow us to track and manage changes that occur in the code over time: for this we are going to see the use of **Git** and the workflow with **GitFlow**.

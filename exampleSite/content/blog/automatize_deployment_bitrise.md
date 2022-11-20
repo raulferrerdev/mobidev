@@ -4,7 +4,7 @@ description: ""
 image: "images/post/automatize_deployment_bitrise.png"
 date: 2020-04-28T18:19:25+06:00
 categories: ["Swift","Development","CI/CD"]
-type: "regular" # available types: [featured/regular]
+type: "Swift" # available types: [featured/regular]
 draft: false
 ---
 One of the main problems that a team of developers working on the same project usually encounters is the fact that, when the code of each one of them is merged, conflicts between different developers’ code, errors, etc. can occur, which makes this process slow. To solve this point, Integration and continuous distribution comes into action to automate the deployment of applications. In this article we are going to learn how to automatize the deployment of iOS applications with Bitrise.

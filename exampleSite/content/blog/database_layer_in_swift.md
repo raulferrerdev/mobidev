@@ -4,7 +4,7 @@ description: ""
 image: "images/post/database_layer_in_swift.jpg"
 date: 2018-12-20T18:19:25+06:00
 categories: ["Swift","Development", "Storage"]
-type: "regular" # available types: [featured/regular]
+type: "Swift" # available types: [featured/regular]
 draft: false
 ---
 Nowadays, most mobile applications have an internal database (Core Data, Realm …) to store information, which can then be used, for example, if the application does not have an internet connection.

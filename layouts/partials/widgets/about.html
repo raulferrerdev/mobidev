@@ -6,6 +6,7 @@
   <a class="d-block mb-4" href="{{ site.BaseURL | relLangURL }}/">
     {{ partialCached "logo.html" . }}
   </a>
+  <h6 class="text-light-700">{{site.Params.author | markdownify}}</h6>
   <p class="mb-4 text-light-700">{{site.Params.about_widget_content | markdownify}}</p>
   <ul class="list-inline social-icons">
     {{ range site.Params.social }}

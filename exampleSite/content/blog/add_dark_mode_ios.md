@@ -4,7 +4,7 @@ description: ""
 image: "images/post/add_dark_mode_ios.jpg"
 date: 2020-01-04T22:19:25+06:00
 categories: ["Swift","Development"]
-type: "regular" # available types: [featured/regular]
+type: "Swift" # available types: [featured/regular]
 draft: false
 ---
 

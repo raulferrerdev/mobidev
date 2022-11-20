@@ -4,7 +4,7 @@ description: ""
 image: "images/post/moor_database_flutter.png"
 date: 2020-12-30T18:19:25+06:00
 categories: ["Flutter","Development", "Database"]
-type: "regular" # available types: [featured/regular]
+type: "Flutter" # available types: [featured/regular]
 draft: false
 ---
 There are different databases to incorporate into a **Flutter** application, each with its advantages and disadvantages. In this article, along with a short introduction, we are going to specifically look at a database to work with in Flutter: [Moor](https://pub.dev/packages/moor). So go ahead and deploy the Moor database on Flutter!
