@@ -24,8 +24,8 @@ email = "developer.blog@icloud.com"
 search = true
 
 # featured post title
-featured_post_title = "Featured Post"
-recent_post_title = "Recent Post"
+featured_post_title = "Sections"
+recent_post_title = "Recent Posts"
 mainSections = ["blog"]
 # about widget content
 about_widget_content = "Mobile Tech Lead & Senior iOS Developer. Devising, developing and managing new projects. Always learning!+"
@@ -68,7 +68,7 @@ button = "I Accept"
 
 ######################## sidebar widgets #########################
 [widgets]
-sidebar = ["about", "categories", "recent-post"]
+sidebar = ["about", "categories"]
 # available widget : about,categories,newsletter,recent-post
 
 
