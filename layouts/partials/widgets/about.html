@@ -3,12 +3,15 @@
 {{ $bgImage:= $bgImage.Resize "400x webp" }}
 <div class="widget bg-center" style="background-image: url('{{ $bgImage.RelPermalink }}');">
   <!-- navbar brand/logo -->
-  <a class="d-block mb-4" href="{{ site.BaseURL | relLangURL }}/">
-    {{ partialCached "logo.html" . }}
+  <a class="d-block mb-4" style="margin-bottom: 0.1rem !important;" href="{{ site.BaseURL | relLangURL }}/">
+    {{ partialCached "logoColor.html" . }}
   </a>
-  <h6 class="text-light-700">{{site.Params.author | markdownify}}</h6>
-  <p class="mb-4 text-light-700">{{site.Params.about_widget_content | markdownify}}</p>
-  <ul class="list-inline social-icons">
+  <div >
+    <h7 class="text-light-700">by </h6>
+    <h6 class="text-light-700">{{site.Params.author | markdownify}}</h6>
+  </div>
+  <p class="mb-4 text-light-700"  style="margin-top: 1rem !important;">{{site.Params.about_widget_content | markdownify}}</p>
+  <ul class="list-inline social-icons social-icons-color">
     {{ range site.Params.social }}
     <li class="list-inline-item">
       <a href="{{ .link | safeURL }}"><i class="{{.icon}}"></i></a>

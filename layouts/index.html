@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <!--=================== banner section start ===================-->
+<!--
 {{ with site.Params.banner }}
 {{ if .enable }}
 
@@ -10,19 +11,17 @@
       <div class="col-lg-6 mb-5 mb-lg-0">
         {{ with .title_large }}<h1 class="banner-title mb-0">{{ . | markdownify }}</h1>{{ end }}
         {{ with .title_small }}<h2 class="h2 fw-normal mb-4">{{ . | markdownify}}</h2>{{ end }}
-        <p class="mb-4 fs-6 text-light-600">{{.content | markdownify}}</p>
       </div>
-      <div class="col-lg-3 mb-5 mb-lg-0"></div>
-      <div class="col-lg-3 mb-5 mb-lg-1">
-        {{ if .button_label }}
-        <a href="{{ .button_link | absURL }}" class="btn btn-primary">{{ .button_label }}</a>
-        {{ end }}
+      <div class="col-lg-1 mb-5 mb-lg-0"></div>
+      <div class="col-lg-5 mb-5 mb-lg-1">
+        <p class="mb-4 fs-6 text-light-600">{{.content | markdownify}}</p>
       </div>
     </div>
   </div>
 </section>
 {{ end }}
 {{ end }}
+-->
 <!--=================== banner section end ===================-->
 
 <!--=================== blog section start ===================-->
@@ -41,12 +40,13 @@
         {{ end }}
         <!-- /advertisement -->
 
-        {{with site.Params.recent_post_title}}
-        <div class="section-title">
-          <h2 class="h4 title-border">{{ . | markdownify}}</h2>
-        </div>
-        {{end}}
+
         <div class="border pt-4 mb-5 rounded">
+          {{with site.Params.recent_post_title}}
+          <div class="section-title" style="text-align: center;">
+            <h2 class="h4 title-border">{{ . | markdownify}}</h2>
+          </div>
+          {{end}}
           <div class="row mx-0 g-5">
             <!-- recent post -->
             {{ $paginator:= .Paginate (where site.RegularPages "Section" "in" site.Params.mainSections ) }}

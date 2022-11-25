@@ -4,7 +4,7 @@
   background-position: left bottom;
   background-size: contain;
   padding-top: 40px;
-  background-color: #fafafa;
+  background-color: $white;
 
   h1 strong {
     color: $color-primary;
@@ -280,12 +280,15 @@
 
 /* footer */
 .footer {
-  padding: 70px 0 30px;
+  padding: 40px 0 20px;
   background-position: left top;
   background-size: cover;
   background-repeat: no-repeat;
-
+  background-color: $color-primary;
   .footer-menu {
+
+    margin-bottom: 2rem !important;
+
     li {
       &:not(:last-child) {
         margin-right: 40px;
@@ -301,13 +304,13 @@
 
       a {
         text-transform: capitalize;
-        color: $text-dark;
+        color: $white;
         font-size: 15px;
         font-weight: 700;
         padding: 5px;
 
         &:hover {
-          color: $color-primary;
+          color: $black;
         }
       }
 

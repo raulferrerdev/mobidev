@@ -71,6 +71,17 @@
   }
 }
 
+.footer-list-inline-item {
+  display: inline-block;
+  color: $white;
+  &:not(:last-child) {
+    margin-right: $list-inline-padding;
+  }
+
+  &:a {
+    color: $white !important;
+  }
+}
 
 //
 // Misc
