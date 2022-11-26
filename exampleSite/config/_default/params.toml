@@ -2,7 +2,7 @@
 # favicon
 favicon = "images/favicon.png"
 # logo
-logo = "images/Logo.png"
+logo = "images/logo.png"
 logoColor = "images/Logo-red.png"
 
 # use `x` with logo_width, example: "100x".
