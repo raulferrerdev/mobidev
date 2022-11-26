@@ -3,18 +3,16 @@
 {{ if not (eq (len site.Taxonomies.categories) 0) }}
 <div class="widget category-widget">
   <div class="widget-title">
-    <h3 class="h5 title-border">Blog Categories</h3>
+    <h3 class="h5 title-border">Categories</h3>
   </div>
-  
-  <ul class="list-group list-unstyled">
+
+  <ul class="list-inline" style="margin-top:-10px; margin-bottom: 10px;">
     {{ range $name, $items := site.Taxonomies.categories }}
-    <li>
-      <a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}/" class="d-flex">
-        {{ $name | humanize }} <small class="ms-auto">{{ len $items }}</small>
-      </a>
+    <li class="list-inline-item">
+      <a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}/" class="badge badge-primary py-1" style="font-size: 14px;">{{ $name | humanize }}</a>
     </li>
     {{ end }}
   </ul>
 </div>
 {{ end }}
-{{ end }}
+{{ end }}  

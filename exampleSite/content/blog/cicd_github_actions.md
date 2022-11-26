@@ -3,8 +3,8 @@ title: "Continuous Integration and Continuous Delivery (CI/CD) with GitHub Actio
 description: ""
 image: "images/post/cicd_github_actions.png"
 date: 2020-01-21T22:19:25+06:00
-categories: ["Swift","Development"]
-type: "Swift" # available types: [featured/regular]
+categories: ["CI/CD"]
+tags: ["Swift"]
 draft: false
 ---
 What is Continuous Integration and Continuous Delivery of software? What does CI/CD mean? When different developers work together in an application, if the merge of code occurs at the same time, numerous problems can occur: conflicts between different developers’ code, errors … which makes this process slow. This is where Integration and continuous distribution comes in.

@@ -3,8 +3,8 @@ title: "Custom Codable types"
 description: ""
 image: "images/post/custom_codable_types.png"
 date: 2017-12-09T18:19:25+06:00
-categories: ["Swift","Development", "Codable"]
-type: "Swift" # available types: [featured/regular]
+categories: ["Codable", "Swift"]
+tags: "Swift"
 draft: false
 ---
 We are going to see how we can encode and decode information in JSON format with our own keys, different from those that arrive in the JSON from a server. For this we will use custom Codable types.

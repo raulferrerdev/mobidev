@@ -3,8 +3,8 @@ title: "Improve your Flutter Navigation with Routes"
 description: ""
 image: "images/post/flutter_navigation_routes.png"
 date: 2020-03-08T18:19:25+06:00
-categories: ["Flutter","Development"]
-type: "Flutter" # available types: [featured/regular]
+categories: ["Flutter"]
+tags: "Flutter"
 draft: false
 ---
 In all applications we need to navigate from one screen to another to be able to access their contents. This can be done in two different ways in Flutter: by creating an instance of the *PageRoute* widget and then passing it to the **Navigator** widget, or by using the Named Routes option. In this article we are going to see how to set **Flutter** navigation with **Routes**.

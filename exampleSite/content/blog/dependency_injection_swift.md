@@ -3,8 +3,8 @@ title: "Dependency injection in Swift"
 description: ""
 image: "images/post/dependency_injection_swift.png"
 date: 2020-11-01T18:19:25+06:00
-categories: ["Swift","Development", "Architecture", "Dependency Injection"]
-type: "Swift" # available types: [featured/regular]
+categories: ["Architecture", "Dependency Injection", "Swift"]
+tags: "Swift"
 draft: false
 ---
 If you are like me, when developing an application you are always looking (although sometimes it is difficult) to use a series of ‘rules’ that help you to make the code cleaner, be as uncoupled as possible, be scalable …

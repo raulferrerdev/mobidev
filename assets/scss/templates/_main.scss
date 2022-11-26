@@ -153,27 +153,16 @@
   ul li {
     position: relative;
     font-size: 16px;
-    font-weight: 700;
-
-    &:before {
-      font-family: $font-icon;
-      font-weight: 900;
-      content: "\f054";
-      border: 0;
-      left: 0;
-      position: absolute;
-      color: $color-primary;
-    }
+    font-weight: 300;
 
     &:not(:last-child) {
-      border-bottom: 1px solid $border-color;
-      padding-bottom: 12px;
-      margin-bottom: 12px;
+      padding-bottom: 6px;
+      margin-bottom: 6px;
     }
 
     a {
       color: $text-dark;
-      margin-left: 18px;
+      margin-left: 0px;
 
       &:hover {
         color: $color-primary;

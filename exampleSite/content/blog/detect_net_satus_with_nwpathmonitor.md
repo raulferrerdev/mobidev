@@ -3,8 +3,8 @@ title: "Detect Net status with NWPathMonitor"
 description: ""
 image: "images/post/detect_net_satus_with_nwpathmonitor.jpg"
 date: 2018-11-11T18:19:25+06:00
-categories: ["Swift","Development", "Connectivity", "Net"]
-type: "Swift" # available types: [featured/regular]
+categories: ["Connectivity", "Swift"]
+tags: "Swift"
 draft: false
 ---
 With iOS 12, Apple has introduced Network, a framework that includes the NWPathMonitor class. NWPathMonitor gives us the means to monitor changes of state in the internet connection (so it is no longer necessary to use the Reachability class, in applications that support iOS 12 onwards). Therefore, we can set aside the Reachability library, and detect the state of the network with NWPathMonitor.

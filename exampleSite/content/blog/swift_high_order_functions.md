@@ -3,8 +3,8 @@ title: "Improve your Swift code with higher order functions"
 description: ""
 image: "images/post/swift_high_order_functions.png"
 date: 2020-06-09T18:19:25+06:00
-categories: ["Swift","Development"]
-type: "Swift" # available types: [featured/regular]
+categories: ["Swift"]
+tags: "Swift"
 draft: false
 ---
 In previous articles we had seen how to improve the architecture of our code through [design patterns](https://raulferrergarcia.netlify.app/blog/design_patterns_software/) and the use of [SOLID principles](https://raulferrergarcia.netlify.app/blog/solid_principles_swift/). Now we will see how to improve the Swift code with higher order functions. Surely you have used them more than once, but what are they and how do you improve your Swift code with higher order functions?

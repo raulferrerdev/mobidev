@@ -3,8 +3,8 @@ title: "Learn how to build in Flutter: Widgets"
 description: ""
 image: "images/post/learn_how_build_widgets_flutter.png"
 date: 2020-01-12T18:19:25+06:00
-categories: ["Flutter","Development"]
-type: "Flutter" # available types: [featured/regular]
+categories: ["Flutter"]
+tags: "Flutter"
 draft: false
 ---
 In a [previous article](https://raulferrergarcia.netlify.app/blog/learn_programmming_with_flutter/), in which I introduce Flutter, I discussed the importance of widgets in Flutter. Let’s see how it is built in Flutter.

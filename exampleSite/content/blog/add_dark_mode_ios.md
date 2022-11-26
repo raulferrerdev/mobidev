@@ -3,8 +3,8 @@ title: "How to add Dark Mode in iOS 13"
 description: ""
 image: "images/post/add_dark_mode_ios.jpg"
 date: 2020-01-04T22:19:25+06:00
-categories: ["Swift","Development"]
-type: "Swift" # available types: [featured/regular]
+categories: ["Swift", "Xcode"]
+tags: "Swift"
 draft: false
 ---
 

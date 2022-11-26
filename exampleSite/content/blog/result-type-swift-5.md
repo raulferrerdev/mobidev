@@ -3,8 +3,8 @@ title: "Result type in Swift 5"
 description: ""
 image: "images/post/result_type_in_swift_5.png"
 date: 2018-04-06T18:19:25+06:00
-categories: ["Swift","Development"]
-type: "Swift" # available types: [featured/regular]
+categories: ["Swift"]
+tags: "Swift"
 draft: false
 ---
 

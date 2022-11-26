@@ -3,8 +3,8 @@ title: "What is MetricKit?"
 description: ""
 image: "images/post/what_is_metrickit.jpg"
 date: 2019-10-26T18:19:25+06:00
-categories: ["Swift","Development"]
-type: "Swift" # available types: [featured/regular]
+categories: ["Swift", "MetricKit"]
+tags: "Swift"
 draft: false
 ---
 
