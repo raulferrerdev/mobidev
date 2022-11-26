@@ -1,7 +1,9 @@
 <!-- author -->
 {{ $bgImage:= resources.Get "images/map.png" }}
 {{ $bgImage:= $bgImage.Resize "400x webp" }}
-<div class="widget bg-center" style="background-image: url('{{ $bgImage.RelPermalink }}');">
+{{ $authImage:= resources.Get "images/author.png" }}
+
+<div class="widget bg-center">
   <!-- navbar brand/logo -->
   <a class="d-block mb-4" style="margin-bottom: 0.1rem !important;" href="{{ site.BaseURL | relLangURL }}/">
     {{ partialCached "logoColor.html" . }}
@@ -10,6 +12,7 @@
     <h7 class="text-light-700">by </h6>
     <h6 class="text-light-700">{{site.Params.author | markdownify}}</h6>
   </div>
+
   <p class="mb-4 text-light-700"  style="margin-top: 1rem !important;">{{site.Params.about_widget_content | markdownify}}</p>
   <ul class="list-inline social-icons social-icons-color">
     {{ range site.Params.social }}
