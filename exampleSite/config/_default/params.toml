@@ -7,7 +7,7 @@ logoColor = "images/logo-red.png"
 
 # use `x` with logo_width, example: "100x".
 # Note: logo_width is not work with .svg file
-logo_width = "250x"
+logo_width = "200x"
 logoColor_width = "200x"
 
 # logo text will only show when logo is missing.

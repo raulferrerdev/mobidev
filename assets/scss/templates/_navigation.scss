@@ -77,7 +77,7 @@
       }
 
       &:hover {
-        background: $color-primary;
+        background: $white;
         border-radius: 50px;
         color: $text-dark;
       }
@@ -221,6 +221,7 @@
 
 /* offcanvas */
 .offcanvas {
+  background-color: $color-primary;
   .offcanvas-menu {
     padding-top: 20px;
 
@@ -243,6 +244,7 @@
   .btn-close {
     border: 0;
     background: transparent;
+    color: $white;
     right: 0;
     font-size: 1.8rem;
     width: 1.9em;
