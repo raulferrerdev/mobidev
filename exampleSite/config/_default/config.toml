@@ -63,3 +63,9 @@ suffixes = [""]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
+
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
