@@ -11,11 +11,11 @@ logo_width = "200x"
 logoColor_width = "200x"
 
 # logo text will only show when logo is missing.
-logo_text = "Boilerplate"
+logo_text = "Codderlly"
 # navbar fixed to top
 navbar_fixed = false
 # OpenGraph / Twitter Card metadata
-description = "All about Mobile Developement: Swift, Xcode, iOS, Flutter..."
+description = "All about Mobile Developement: Swift, Xcode, iOS, Flutter... *If you like the world of software development, maybe here you will find what you are looking for."
 author = "Raúl Ferrer"
 image = "images/favicon.png" # this image will be used as fallback if a page has no image of its own
 # contact info
@@ -51,7 +51,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [banner]
 enable = true
 title_large = "Welcome **!**"
-title_small = "to Codderly"
+title_small = "to Codderlly"
 image = ""
 background_image = ""
 content = "**If you like the world of software development, maybe here you will find what you are looking for.**"
