@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://raulferrergarcia.netlify.app/"
+baseURL = "https://codderlly.com/"
 title = "Codderly | All about Mobile Developement: Swift, Xcode, iOS, Flutter..."
 theme = "geeky-hugo"
 languageName = "En"
