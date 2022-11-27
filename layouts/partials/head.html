@@ -41,7 +41,7 @@
 
 
 {{ "<!-- Open Graph image and Twitter Card metadata -->" | safeHTML }}
-{{ $image_path := .Params.image | default site.Params.image -}}
+{{ $image_path := .Params.image | default site.Params.twittercard -}}
 {{ $image_path_local :=  printf "static/%s" $image_path -}}
 {{ $image_ext := trim (path.Ext $image_path | lower) "." -}}
 {{ if fileExists $image_path_local -}}
