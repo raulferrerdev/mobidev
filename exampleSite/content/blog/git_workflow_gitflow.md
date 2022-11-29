@@ -167,6 +167,7 @@ $ git checkout -b release-2.3.5 develop
 #### feature (secondary)
 
 These are branches that, like the **release** branch, derive from the **develop** branch and contain the code corresponding to new functionalities. They are usually branches that only exist in the local repository of each developer. Every time a feature is finalized and approved, its branch is integrated into **develop**.
+
 {{< image src="images/post/git_workflow_gitflow_3.png">}}
 
 By convention this type of branch is named as **feature**/{*feature name*}. For example, to create a branch that contains the functionality of synchronizing the information of a user we could do the following:
@@ -179,7 +180,7 @@ Or with a single command:
 $ git checkout -b feature/userinfosync develop
 {{< / highlight >}}
 
-#### hotfix (secondary)
+#### hotfix (secondary)
 
 A **hotfix** branch is created to correct a bug that needs to be fixed urgently in production code. That is why it derives from the **master** branch and, once corrected, is integrated into both the **master** branch and the **develop** branch.
 

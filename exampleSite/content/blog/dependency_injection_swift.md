@@ -133,7 +133,7 @@ Within the injection of dependencies we can distinguish three types:
 * Property injection
 * Method injection
 
-#### Initializer injection
+##### Initializer injection
 
 It is the type of initialization that we have seen in the example. In this case we pass the dependency during object initialization. Also, it has the advantage that the dependency is immutable.
 {{< highlight swift  "linenos=inline,linenostart=1" >}}
@@ -148,7 +148,7 @@ class loginViewModel {
 }
 {{< / highlight >}}
 
-#### Property injection
+##### Property injection
 
 Injection of a dependency can also be done by assigning it as a parameter. In this case, this assignment makes the property not immutable, since then we could modify it with a new assignment:
 {{< highlight swift  "linenos=inline,linenostart=1" >}}
@@ -162,7 +162,7 @@ loginViewModel.neworkManager = NetworkManager()
 
 {{< / highlight >}}
 
-#### Method injection
+##### Method injection
 
 Another way to inject a dependency is to do it whenever we want. This can be done by creating a method that allows dependency injecting.
 {{< highlight swift  "linenos=inline,linenostart=1" >}}

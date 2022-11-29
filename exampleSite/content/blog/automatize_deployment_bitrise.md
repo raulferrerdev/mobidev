@@ -42,6 +42,7 @@ On the registration page we can use different options, starting with using accou
 {{< image src="images/post/automatize_deployment_bitrise_3.png">}}
 
 In this case we will use the registry through GitHub, since it will be the repository that we link to Bitrise.
+
 {{< image src="images/post/automatize_deployment_bitrise_4.png">}}
 
 Once registered, a screen will appear indicating that we have not added any application yet and invites us to do so.
@@ -275,7 +276,7 @@ After doing some tests with Bitrise some of the points for and against that I ha
 * Good documentation.
 * Specific for mobile (iOS, Android).
 
-Cons
+###### Cons
 
 * Sometimes setup can be a little tricky.
 * Slow on some compilations (the example project, extremely simple, takes about 3 min to run). This can be a problem for large projects if you have Free or Developer accounts, which have a 45 min limit.
