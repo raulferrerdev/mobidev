@@ -1,18 +1,19 @@
 ---
 title: "Dependency injection in Swift"
-description: ""
+description: "If you use dependency injection, your application code will become more decoupled, testable, and scalable. In this post they explained what Dependency Injection is and its types."
 image: "images/post/dependency_injection_swift.png"
+thumbnail: "images/post/dependency_injection_swift.png"
 date: 2020-11-01T18:19:25+06:00
 categories: ["Architecture", "Dependency Injection", "Swift"]
-tags: "Swift"
+tags: ["Swift"]
 draft: false
 ---
 If you are like me, when developing an application you are always looking (although sometimes it is difficult) to use a series of ‘rules’ that help you to make the code cleaner, be as uncoupled as possible, be scalable …
 
-In a previous article I already talked about [SOLID](https://raulferrergarcia.netlify.app/blog/solid_principles_swift/) principles and how to apply them with Swift. In this article I am going to discuss a pattern that will allow us to reduce the coupling of our code and that will make it more easily testable: **Dependency Injection**.
+In a previous article I already talked about [SOLID](https://codderlly.com/blog/solid_principles_swift/) principles and how to apply them with Swift. In this article I am going to discuss a pattern that will allow us to reduce the coupling of our code and that will make it more easily testable: **Dependency Injection**.
 #### But, what is dependency injection?
 
-If we go directly to the definition that [Wikipedia]() gives us, we find the following:
+If we go directly to the definition that [Wikipedia](https://en.wikipedia.org/wiki/Dependency_injection) gives us, we find the following:
 
 > In software engineering, dependency injection is a technique in which an object receives other objects that it depends on. These other objects are called dependencies. In the typical “using” relationship the receiving object is called a client and the passed (that is, “injected”) object is called a service. The code that passes the service to the client can be many kinds of things and is called the injector. Instead of the client specifying which service it will use, the injector tells the client what service to use. The “injection” refers to the passing of a dependency (a service) into the object (a client) that would use it.
 

@@ -1,13 +1,14 @@
 ---
 title: "Improve your Swift code with higher order functions"
-description: ""
+description: "Learn how to use High-order functions to improve your Swift code. map, compactMap, faltMap, reduce, filter, forEach... will help you in your day to day as an iOS developer."
 image: "images/post/swift_high_order_functions.png"
+thumbnail: "images/post/swift_high_order_functions.png"
 date: 2020-06-09T18:19:25+06:00
 categories: ["Swift"]
-tags: "Swift"
+tags: ["Swift"]
 draft: false
 ---
-In previous articles we had seen how to improve the architecture of our code through [design patterns](https://raulferrergarcia.netlify.app/blog/design_patterns_software/) and the use of [SOLID principles](https://raulferrergarcia.netlify.app/blog/solid_principles_swift/). Now we will see how to improve the Swift code with higher order functions. Surely you have used them more than once, but what are they and how do you improve your Swift code with higher order functions?
+In previous articles we had seen how to improve the architecture of our code through [design patterns](https://codderlly.com/blog/design_patterns_software/) and the use of [SOLID principles](https://raulferrergarcia.netlify.app/blog/solid_principles_swift/). Now we will see how to improve the Swift code with higher order functions. Surely you have used them more than once, but what are they and how do you improve your Swift code with higher order functions?
 #### Swift higher order functions
 
 Higher-order functions are functions that take other functions or closures as arguments and that return a function or a closure. These functions are used with arrays, sets and dictionaries, and act on the elements they contain (this is done by methods that are applied to the elements of the collection using the point syntax).

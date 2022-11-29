@@ -1,10 +1,11 @@
 ---
 title: "Use the new Apple SF Symbols in your applications"
-description: ""
+description: "Discover how to add hundreds of icons to your applications using SF Symbols and how to customize them."
 image: "images/post/apple_sf_symbols.png"
+thumbnail: "images/post/apple_sf_symbols.png"
 date: 2020-03-24T18:19:25+06:00
 categories: ["Swift", "SF Symbols"]
-tags: "Swift"
+tags: ["Swift"]
 draft: false
 ---
 During [WWDC 2019](https://developer.apple.com/videos/wwdc2019/), Apple introduced a free set of over [1,500 symbols](https://developer.apple.com/videos/play/wwdc2019/206/) to be used by developers in their applications. Here I will explain how to use the new Apple **SF Symbols** in your applications. In any case, even if they are free, you must take into account the license agreements indicated by [Apple](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/):

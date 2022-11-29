@@ -1,15 +1,16 @@
 ---
 title: "How to create a color palette (Color Assets) in Xcode"
-description: ""
+description: "Learn how to create color palettes in Xcode and how to define all the colors in an application in a single point."
 image: "images/post/create_color_palette.jpg"
+thumbnail: "images/post/create_color_palette.jpg"
 date: 2020-01-04T18:19:25+06:00
 categories: ["Xcode", "Swift"]
-tags: "Swift"
+tags: ["Swift"]
 draft: false
 ---
 The Asset Catalog of colors are the color palettes that we can create, from the publication of iOS 11 and Xcode 9, to have in a single point the definition of all the colors of our applications.
 
-This will allow us, on the one hand, to use these colors both from the code and from the graphical interface (storyboard and xib), and, on the other, prepare our application to use the Dark Mode (available in iOS 13 and Xcode 11), such as shown in [How to add Dark Mode in iOS 13](https://raulferrergarcia.netlify.app/blog/add_dark_mode_ios/).
+This will allow us, on the one hand, to use these colors both from the code and from the graphical interface (storyboard and xib), and, on the other, prepare our application to use the Dark Mode (available in iOS 13 and Xcode 11), such as shown in [How to add Dark Mode in iOS 13](https://codderlly.com/blog/add_dark_mode_ios/).
 #### Creation of a color
 
 To create a color from our palette, we can do it directly by selecting the Assets.xcassets folder (or creating our own .xcassets folder for colors) in the project navigator (Project Navigator).

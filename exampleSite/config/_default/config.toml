@@ -10,7 +10,7 @@ paginate = "6"
 # post excerpt
 summaryLength = "10"
 # google analytics
-googleAnalytics = "G-LSVN2T5WFM" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+googleAnalytics = "G-LSVN2T5WFM"
 # disqus short name
 # disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # disable language
@@ -64,3 +64,9 @@ suffixes = [""]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
+
+############################ Twitter Card ###########################
+[params]
+Twitter_Image = "/images/twitter_card.png"
+Twitter_Site = "@RaulFerrer_dev"
+Image = "/images/twitter_card.png"

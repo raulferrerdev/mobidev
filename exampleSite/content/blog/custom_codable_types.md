@@ -1,10 +1,11 @@
 ---
 title: "Custom Codable types"
-description: ""
+description: "Codabe, Decodable and Encodable are protocols that will allow us to work easily with information in JSON format within our applications. Use Custom Keys to be able to modify the name of the JSON parameters."
 image: "images/post/custom_codable_types.png"
+thumbnail: "images/post/custom_codable_types.png"
 date: 2017-12-09T18:19:25+06:00
 categories: ["Codable", "Swift"]
-tags: "Swift"
+tags: ["Swift"]
 draft: false
 ---
 We are going to see how we can encode and decode information in JSON format with our own keys, different from those that arrive in the JSON from a server. For this we will use custom Codable types.
