@@ -1,6 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://raulferrergarcia.netlify.app/"
-title = "Codderly | All about Mobile Developement: Swift, Xcode, iOS, Flutter..."
+title = "Codderly | All about Mobile Developement: iOS, Swift, Xcode, iOS, Flutter..."
+description = "A Developement Blog about iOS, Xcode, Swift, SwiftUI, Flutter and Development practices. Learn how to build better apps, with theory and examples in all posts."
 theme = "geeky-hugo"
 languageName = "En"
 languageCode = "en-us"

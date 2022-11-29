@@ -15,7 +15,7 @@ logo_text = "Boilerplate"
 # navbar fixed to top
 navbar_fixed = false
 # OpenGraph / Twitter Card metadata
-description = "This is meta description"
+description = "A Developement Blog about iOS, Xcode, Swift, SwiftUI, Flutter and Development practices. Learn how to build better apps, with theory and examples in all posts."
 author = "Raúl Ferrer"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # contact info

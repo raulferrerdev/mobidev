@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-description: "this is meta-description"
+description: "A Developement Blog about iOS, Xcode, Swift, SwiftUI, Flutter and Development practices. Learn how to build better apps, with theory and examples in all posts."
 draft: false
 
 ---

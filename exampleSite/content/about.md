@@ -1,40 +1,9 @@
 ---
 title: "About The Author"
-description: "this is meta-description"
+description: "A Developement Blog about iOS, Xcode, Swift, SwiftUI, Flutter and Development practices. Learn how to build better apps, with theory and examples in all posts."
 image: "images/author.png"
 layout: "about"
 draft: false
-
-# education
-education:
-  enable: false
-  title: "Formal Education"
-  education_list:
-  - name: "Southeast University"
-    content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-  - name: "Northeast University"
-    content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-  - name: "Easteast University"
-    content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-  - name: "Southeast University"
-    content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-
-# experience
-experience:
-  enable: false
-  title: "Work Experience"
-  experience_list:
-  - "Best Writer Award"
-  - "Best New Newel"
-  - "Best Book"
-  - "Best Article"
-  - "Best New Newel"
-  - "Best New Newel"
-  - "Best Book"
-  - "Best Article"
-  - "Best New Newel"
-  - "Best Book"
-
 ---
 I have a Chemistry background (with a PhD in Analytical Chemistry), although computer science has always been another of my passions (I started programming at BASIC with 14 years).
 
