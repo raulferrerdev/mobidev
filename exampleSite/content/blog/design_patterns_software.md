@@ -1,10 +1,11 @@
 ---
 title: "Design patterns in software"
-description: ""
+description: "Design patterns are solutions that have been found to similar problems in software development. In this post I will tell you about the 23 identified design patterns, and their characteristics."
 image: "images/post/design_patterns_software.png"
+thumbnail: "images/post/design_patterns_software.png"
 date: 2020-02-01T18:19:25+06:00
 categories: ["Architecture", "Swift"]
-tags: "Swift"
+tags: ["Swift"]
 draft: false
 ---
 Normally, in software development we often encounter problems that have similar characteristics. To solve them we find different solutions, but as some of these solutions are usually better than others (from the point of view of flexibility and reusability), they end up being preferred. These solutions end up becoming Design Patterns in software. Design Patterns in software are solutions to recurring design problems that are being applied daily in the software industry.

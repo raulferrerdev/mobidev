@@ -1,10 +1,11 @@
 ---
 title: "Database layer in Swift"
-description: ""
+description: "Learn how to separate the Database layer of an application from the rest of the components, so that you can change the type of database used (for example, from CoreData to Realm) without the need for major code changes."
 image: "images/post/database_layer_in_swift.jpg"
+thumbnail: "images/post/database_layer_in_swift.jpg"
 date: 2018-12-20T18:19:25+06:00
 categories: ["Database", "Swift"]
-tags: "Swift"
+tags: ["Swift"]
 draft: false
 ---
 Nowadays, most mobile applications have an internal database (Core Data, Realm …) to store information, which can then be used, for example, if the application does not have an internet connection.

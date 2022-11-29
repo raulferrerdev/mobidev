@@ -1,10 +1,11 @@
 ---
 title: "Result type in Swift 5"
-description: ""
+description: "Swift 5 has introduced the Result type, a new feature that will allow us to improve error handling in asynchronous APIs."
 image: "images/post/result_type_in_swift_5.png"
+thumbnail: "images/post/result_type_in_swift_5.png"
 date: 2018-04-06T18:19:25+06:00
 categories: ["Swift"]
-tags: "Swift"
+tags: ["Swift"]
 draft: false
 ---
 
@@ -15,7 +16,7 @@ public enum Result<Success, Failure: Error> {
 }
 {{< / highlight >}}
 
-**Result** permite manejar errores para API asíncronas de una forma automática. Por ejemplo, para realizar una llamada a un servidor que devuelve una lista de usuarios (struct User), podemos implementar el siguiente método:
+**Result** allows to handle errors for asynchronous APIs in an automatic way. For example, to make a call to a server that returns a list of users (struct User), we can implement the following method:
 {{< highlight swift  "linenos=inline,linenostart=1" >}}
 func fetchUsers(url: URL, completion: @escaping (Result<[User], Error>) -> Void) {
     URLSession.shared.dataTask(with: url) { data, response, error in

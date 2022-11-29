@@ -1,10 +1,11 @@
 ---
 title: "How to test push notifications in Xcode 11.4 simulator"
-description: ""
+description: "Learn how to test push notifications from your apps directly in the iOS simulator. You will simply need XCode 11.4 for it. In this post I explain how to do it."
 image: "images/post/xcode_push_notifications_simulator.png"
+thumbnail: "images/post/xcode_push_notifications_simulator.png"
 date: 2020-02-20T18:19:25+06:00
 categories: ["Notifications", "Swift"]
-tags: "Swift"
+tags: ["Swift"]
 draft: false
 ---
 **Push notifications** are the messages that are sent, to an application installed on a device, from a server. In the case of iOS applications, the Apple Push Notifications Service (APN) is used. Until now, the only way to test these notifications was on physical devices. However, this has changed with the beta version of [Xcode 11.4](https://developer.apple.com/documentation/xcode_release_notes/xcode_11_4_beta_2_release_notes), with which we can already test the push notifications in the simulator.

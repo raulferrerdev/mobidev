@@ -1,10 +1,11 @@
 ---
 title: "What is new in Swift 5.3"
-description: ""
+description: "In this post he explains some of the most important new features that Swift 5.3 introduces."
 image: "images/post/new_swift_5_3.png"
+thumbnail: "images/post/new_swift_5_3.png"
 date: 2020-01-18T18:19:25+06:00
 categories: ["Swift"]
-tags: "Swift"
+tags: ["Swift"]
 draft: false
 ---
 What is new in **Swift 5.3** (whose publication process was announced by [Apple on 3/25](https://swift.org/blog/5-3-release-process/)) can be found both at the code level (multi-pattern catch, multiple trailing closure …) and in the use of Swift Package Manager (addition of binary dependencies or resources. Below I detail some of the new features in Swift 5.3 (keep in mind that we expect to see the new beta of Swift 5.3 at WWDC20, although to test it you can download it at [Swift.org](https://swift.org/download/#snapshots)).
