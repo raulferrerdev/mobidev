@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://codderlly.com/"
-title = "Codderlly | All about Mobile Developement: Swift, Xcode, iOS, Flutter... If you like the world of software development, maybe here you will find what you are looking for."
+title = "Codderlly | Learn about Swift, SwiftUI, Xcode, Flutter, SOLID, Architecture..."
 theme = "geeky-hugo"
 languageName = "En"
 languageCode = "en-us"
