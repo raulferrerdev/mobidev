@@ -1,10 +1,16 @@
 ######################## default configuration ####################
-baseURL = "https://raulferrergarcia.netlify.app/"
-title = "Codderly | All about Mobile Developement: iOS, Swift, Xcode, iOS, Flutter..."
+baseURL = "https://codderlly.com/"
+title = "Codderlly | A Developement Blog about iOS, Xcode, Swift, SwiftUI, Flutter and Development practices."
 description = "A Developement Blog about iOS, Xcode, Swift, SwiftUI, Flutter and Development practices. Learn how to build better apps, with theory and examples in all posts."
 theme = "geeky-hugo"
 languageName = "En"
 languageCode = "en-us"
+
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+canonifyURLs = true
+
 # post pagination
 paginate = "6"
 # post excerpt
@@ -75,3 +81,8 @@ filename = "sitemap.xml"
 Twitter_Image = "/images/twitter_card.png"
 Twitter_Site = "@RaulFerrer_dev"
 Image = "/images/twitter_card.png"
+author = "Raúl Ferrer"
+github = "https://github.com/raulferrerdev"
+og_image = "/images/twittercard.png"
+itename = "Codderlly"
+twitter = "@RaulFerrer_dev"

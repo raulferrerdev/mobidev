@@ -19,7 +19,7 @@ description = "A Developement Blog about iOS, Xcode, Swift, SwiftUI, Flutter and
 author = "Raúl Ferrer"
 image = "images/favicon.png" # this image will be used as fallback if a page has no image of its own
 twittercard = "images/twittercard.png" # this image will be used as fallback if a page has no image of its own
-
+authorImage = "images/author.png"
 # contact info
 # address = ""
 mobile = ""

@@ -8,9 +8,8 @@ AUTHOR WEBSITE: https://gethugothemes.com
 -->
 
 <!DOCTYPE html>
-<html lang="{{ site.LanguageCode | default `en-US` }}">
-
-<head>
+<html prefix="og: http://ogp.me/ns#" lang="{{ .Language }}">
+<head itemscope itemtype="{{ .Site.BaseURL }}">
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3002981062350182"
      crossorigin="anonymous"></script>
 	{{ partial "head.html" . }}
