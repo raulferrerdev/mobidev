@@ -3,7 +3,7 @@
 {{ $bgImage:= $bgImage.Resize "400x webp" }}
 {{ $authImage:= resources.Get "images/aboutAuthor.png" }}
 
-<div class="widget bg-center">
+<div class="widget bg-center" style="background-color: white;">
   <!-- navbar brand/logo -->
   <a class="d-block mb-4" style="margin-bottom: 0.1rem !important;" href="{{ site.BaseURL | relLangURL }}/">
     {{ partialCached "logoColor.html" . }}
