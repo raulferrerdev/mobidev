@@ -7,7 +7,7 @@ logoColor = "images/Logo-red.png"
 
 # use `x` with logo_width, example: "100x".
 # Note: logo_width is not work with .svg file
-logo_width = "200x"
+logo_width = "350x"
 logoColor_width = "200x"
 
 # logo text will only show when logo is missing.
@@ -76,7 +76,7 @@ enableRobotsTXT = true
 
 ######################## sidebar widgets #########################
 [widgets]
-sidebar = ["about", "categories"]
+sidebar = ["categories"]
 # available widget : about,categories,newsletter,recent-post
 
 

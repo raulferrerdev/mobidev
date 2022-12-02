@@ -12,7 +12,8 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 # post pagination
-paginate = "3"
+paginate = "4"
+listPaginate = "9"
 # post excerpt
 summaryLength = "10"
 # google analytics

@@ -4,7 +4,7 @@ description: ""
 image: "images/post/develop_todo_cloudkit.png"
 date: 2020-03-18T18:19:25+06:00
 categories: ["CloudKit", "Swift It yourself"]
-tags: ["SIY - Swit It yourself", "Swift"]
+tags: ["SIY", "Swift"]
 draft: false
 ---
 If we want to develop an application that allows data and files to be shared and synchronized between different devices, we will need to use a backend service that allows us to perform these tasks. In the case of devices with iOS, or macOS, we can use **CloudKit**. In this article we are going to see how a task application is developed with *CloudKit*.

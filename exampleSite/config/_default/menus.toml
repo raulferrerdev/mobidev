@@ -7,14 +7,19 @@ url = ""
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
+name = "Swift"
+url = "tags/swift/"
 weight = 2
 
-#[[main]]
-#name = "Swift Basics"
-#url = "section/"
-#weight = 3
+[[main]]
+name = "Flutter"
+url = "tags/flutter/"
+weight = 3
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 4
 
 # footer menu
 [[footer]]
@@ -23,11 +28,21 @@ url = "/"
 weight = 1
 
 [[footer]]
+name = "Swift"
+url = "tags/swift/"
+weight = 2
+
+[[footer]]
+name = "Flutter"
+url = "tags/flutter/"
+weight = 3
+
+[[footer]]
 name = "About"
 url = "about/"
-weight = 2
+weight = 4
 
 [[footer]]
 name = "Privacy Policy"
 url = "privacy-policy/"
-weight = 3
+weight = 5

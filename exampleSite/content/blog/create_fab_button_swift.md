@@ -5,7 +5,7 @@ image: "images/post/create_fab_button_swift.png"
 thumbnail: "images/post/create_fab_button_swift.png"
 date: 2020-04-17T18:19:25+06:00
 categories: ["Swift It yourself"]
-tags: ["SIY - Swit It yourself", "Swift"]
+tags: ["SIY", "Swift"]
 draft: false
 ---
 Surely you have seen some applications in which there is a button that, when pressed, displays a menu with other buttons (which we could call secondary). The main button, is usually called FAB or Float Action Button. In this article we are going to see how we can create a FAB Button with Swift, which when pressed, displays (with an animation) a menu.

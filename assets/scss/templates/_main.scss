@@ -314,3 +314,9 @@
     color: $color-primary;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .priority-2{
+    display:none;
+  }
+}

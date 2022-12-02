@@ -5,7 +5,7 @@ image: "images/post/build_maps_mapkit.png"
 thumbnail: "images/post/build_maps_mapkit.png"
 date: 2020-05-04T18:19:25+06:00
 categories: ["Swift", "MapKit", "Swift It yourself"]
-tags: ["SIY - Swit It yourself", "Swift"]
+tags: ["SIY", "Swift"]
 draft: false
 ---
 Have you noticed the number of applications that show us a map in which they place us, indicate interesting places nearby, mark routes …? In this article I will explain how to build a maps and routes application with [MapKit](https://developer.apple.com/documentation/mapkit).

@@ -100,7 +100,7 @@ select {
     z-index: 1;
 
     &:not(:last-child) {
-      margin-right: 15px
+      margin-right: 0px
     }
 
     &:first-child::before,
@@ -114,18 +114,18 @@ select {
 
     &:first-child::before {
       border-left: 1px solid $color-primary;
-      right: 30px;
+      right: 10px;
     }
 
     &:last-child::before {
       border-right: 1px solid $color-primary;
-      left: 30px;
+      left: 10px;
     }
 
     a {
       color: $white;
-      font-size: 24px;
-      padding: 4px 8px;
+      font-size: 28px;
+      padding: 4px 4px;
 
       &:hover {
         color: $black;
