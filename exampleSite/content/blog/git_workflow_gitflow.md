@@ -4,7 +4,7 @@ description: "Learn how to use Git and Gitflow to be able to control changes in 
 image: "images/post/git_workflow_gitflow.png"
 thumbnail: "images/post/git_workflow_gitflow.png"
 date: 2021-07-20T18:19:25+06:00
-categories: ["Gitflow"]
+categories: ["Deployment"]
 tags: ["Swift"]
 draft: false
 ---

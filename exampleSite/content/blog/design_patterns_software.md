@@ -4,7 +4,7 @@ description: "Design patterns are solutions that have been found to similar prob
 image: "images/post/design_patterns_software.png"
 thumbnail: "images/post/design_patterns_software.png"
 date: 2020-02-01T18:19:25+06:00
-categories: ["Architecture", "Swift"]
+categories: ["Architecture"]
 tags: ["Swift"]
 draft: false
 ---

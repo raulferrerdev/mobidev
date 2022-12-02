@@ -4,7 +4,7 @@ description: "Swift 5 has introduced the Result type, a new feature that will al
 image: "images/post/result_type_in_swift_5.png"
 thumbnail: "images/post/result_type_in_swift_5.png"
 date: 2018-04-06T18:19:25+06:00
-categories: ["Swift"]
+categories: ["Swift basics"]
 tags: ["Swift"]
 draft: false
 ---

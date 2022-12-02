@@ -4,7 +4,7 @@ description: "Learn how to use High-order functions to improve your Swift code. 
 image: "images/post/swift_high_order_functions.png"
 thumbnail: "images/post/swift_high_order_functions.png"
 date: 2020-06-09T18:19:25+06:00
-categories: ["Swift"]
+categories: ["Swift basics"]
 tags: ["Swift"]
 draft: false
 ---

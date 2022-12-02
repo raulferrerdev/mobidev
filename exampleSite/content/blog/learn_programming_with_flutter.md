@@ -4,7 +4,7 @@ description: "Flutter is an SDK that allows us to create cross-platform applicat
 image: "images/post/learn_programming_with_flutter_intro.jpg"
 thumbnail: "images/post/learn_programming_with_flutter_intro.jpg"
 date: 2019-12-28T18:19:25+06:00
-categories: ["Flutter"]
+categories: ["Flutter basics"]
 tags: ["Flutter"]
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "If you use dependency injection, your application code will become
 image: "images/post/dependency_injection_swift.png"
 thumbnail: "images/post/dependency_injection_swift.png"
 date: 2020-11-01T18:19:25+06:00
-categories: ["Architecture", "Dependency Injection", "Swift"]
+categories: ["Architecture"]
 tags: ["Swift"]
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "VisionKit is an Apple framework that we can use in our projects fr
 image: "images/post/develop_ocr_visionkit.png"
 thumbnail: "images/post/develop_ocr_visionkit.png"
 date: 2020-02-25T18:19:25+06:00
-categories: ["Swift It yourself","VisionKit"]
+categories: ["Swift It yourself","Framework"]
 tags: ["SIY", "Swift"]
 draft: false
 ---

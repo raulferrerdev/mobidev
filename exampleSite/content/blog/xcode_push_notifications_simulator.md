@@ -4,7 +4,7 @@ description: "Learn how to test push notifications from your apps directly in th
 image: "images/post/xcode_push_notifications_simulator.png"
 thumbnail: "images/post/xcode_push_notifications_simulator.png"
 date: 2020-02-20T18:19:25+06:00
-categories: ["Notifications", "Swift"]
+categories: ["Swift basics"]
 tags: ["Swift"]
 draft: false
 ---

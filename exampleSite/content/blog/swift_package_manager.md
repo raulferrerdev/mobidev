@@ -4,7 +4,7 @@ description: "Swift Package Manager is the dependency management solution develo
 image: "images/post/swift_package_manager.png"
 thumbnail: "images/post/swift_package_manager.png"
 date: 2020-04-13T18:19:25+06:00
-categories: ["Swift", "SPM"]
+categories: ["Swift basics"]
 tags: ["Swift"]
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "iOS 13 hga introduced SceneDelegate and the new concept of scene. 
 image: "images/post/scenedelegate_ios_13.png"
 thumbnail: "images/post/scenedelegate_ios_13.png"
 date: 2020-03-07T18:19:25+06:00
-categories: ["Swift"]
+categories: ["Swift basics"]
 tags: ["Swift"]
 draft: false
 ---

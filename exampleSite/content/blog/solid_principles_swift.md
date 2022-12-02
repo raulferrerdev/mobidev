@@ -4,7 +4,7 @@ description: "Learn the SOLID principles and how to apply them in the developmen
 image: "images/post/solid_principles_swift.png"
 thumbnail: "images/post/solid_principles_swift.png"
 date: 2020-02-07T18:19:25+06:00
-categories: ["SOLID","Swift"]
+categories: ["Architecture"]
 tags: ["Swift"]
 draft: false
 ---

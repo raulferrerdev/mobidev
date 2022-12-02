@@ -4,7 +4,7 @@ description: "In this post he explains some of the most important new features t
 image: "images/post/new_swift_5_3.png"
 thumbnail: "images/post/new_swift_5_3.png"
 date: 2020-01-18T18:19:25+06:00
-categories: ["Swift"]
+categories: ["Swift basics"]
 tags: ["Swift"]
 draft: false
 ---

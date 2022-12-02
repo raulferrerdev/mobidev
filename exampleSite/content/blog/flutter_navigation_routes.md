@@ -4,7 +4,7 @@ description: "Learn how to use Routes to navigate between the different pages th
 image: "images/post/flutter_navigation_routes.png"
 thumbnail: "images/post/flutter_navigation_routes.png"
 date: 2020-03-08T18:19:25+06:00
-categories: ["Flutter"]
+categories: ["Flutter basics"]
 tags: ["Flutter"]
 draft: false
 ---

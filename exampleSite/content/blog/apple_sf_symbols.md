@@ -4,7 +4,7 @@ description: "Discover how to add hundreds of icons to your applications using S
 image: "images/post/apple_sf_symbols.png"
 thumbnail: "images/post/apple_sf_symbols.png"
 date: 2020-03-24T18:19:25+06:00
-categories: ["Swift", "SF Symbols"]
+categories: ["Swift basics" , "Design"]
 tags: ["Swift"]
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "With Xcode and Mapkit you can easily and quickly add maps to your 
 image: "images/post/build_maps_mapkit.png"
 thumbnail: "images/post/build_maps_mapkit.png"
 date: 2020-05-04T18:19:25+06:00
-categories: ["Swift", "MapKit", "Swift It yourself"]
+categories: ["Swift It yourself", "Framework"]
 tags: ["SIY", "Swift"]
 draft: false
 ---

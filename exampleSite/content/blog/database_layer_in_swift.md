@@ -4,7 +4,7 @@ description: "Learn how to separate the Database layer of an application from th
 image: "images/post/database_layer_in_swift.jpg"
 thumbnail: "images/post/database_layer_in_swift.jpg"
 date: 2018-12-20T18:19:25+06:00
-categories: ["Database", "Swift"]
+categories: ["Swift basics"]
 tags: ["Swift"]
 draft: false
 ---

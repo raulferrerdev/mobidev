@@ -4,7 +4,7 @@ description: "Learn how to create color palettes in Xcode and how to define all 
 image: "images/post/create_color_palette.jpg"
 thumbnail: "images/post/create_color_palette.jpg"
 date: 2020-01-04T18:19:25+06:00
-categories: ["Xcode", "Swift"]
+categories: ["Swift basics" , "Design"]
 tags: ["Swift"]
 draft: false
 ---

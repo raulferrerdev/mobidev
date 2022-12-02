@@ -4,7 +4,7 @@ description: "Codabe, Decodable and Encodable are protocols that will allow us t
 image: "images/post/custom_codable_types.png"
 thumbnail: "images/post/custom_codable_types.png"
 date: 2017-12-09T18:19:25+06:00
-categories: ["Codable", "Swift"]
+categories: ["Swift basics"]
 tags: ["Swift"]
 draft: false
 ---

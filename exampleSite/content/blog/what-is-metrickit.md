@@ -4,7 +4,7 @@ description: "MetricKit is an Apple framework, introduced with iOS 13, that allo
 image: "images/post/what_is_metrickit.jpg"
 thumbnail: "images/post/what_is_metrickit.jpg"
 date: 2019-10-26T18:19:25+06:00
-categories: ["Swift", "MetricKit"]
+categories: ["Swift basics", "Framework"]
 tags: ["Swift"]
 draft: false
 ---

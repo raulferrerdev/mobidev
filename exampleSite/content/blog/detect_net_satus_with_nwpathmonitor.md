@@ -4,7 +4,7 @@ description: "Learn how to use NWPathMonitor to control the connectivity of your
 image: "images/post/detect_net_satus_with_nwpathmonitor.jpg"
 thumbnail: "images/post/detect_net_satus_with_nwpathmonitor.jpg"
 date: 2018-11-11T18:19:25+06:00
-categories: ["Connectivity", "Swift"]
+categories: ["Swift basics"]
 tags: ["Swift"]
 draft: false
 ---

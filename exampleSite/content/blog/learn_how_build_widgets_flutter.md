@@ -4,7 +4,7 @@ description: "Widgets are the main components in an application developed with F
 image: "images/post/learn_how_build_widgets_flutter.png"
 thumbnail: "images/post/learn_how_build_widgets_flutter.png"
 date: 2020-01-12T18:19:25+06:00
-categories: ["Flutter"]
+categories: ["Flutter basics"]
 tags: ["Flutter"]
 draft: false
 ---

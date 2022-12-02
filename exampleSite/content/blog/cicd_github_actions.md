@@ -4,7 +4,7 @@ description: "Github offers the possibility of adding Continuous Integration and
 image: "images/post/cicd_github_actions.png"
 thumbnail: "images/post/cicd_github_actions.png"
 date: 2020-01-21T22:19:25+06:00
-categories: ["CI/CD"]
+categories: ["Deployment"]
 tags: ["Swift"]
 draft: false
 ---

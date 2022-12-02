@@ -4,7 +4,7 @@ description: "Cryptokit is an Apple library that allows us to work with encrypti
 image: "images/post/criptokit_tutorial.png"
 thumbnail: "images/post/criptokit_tutorial.png"
 date: 2020-02-17T18:19:25+06:00
-categories: ["CryptoKit", "Swift"]
+categories: ["Framework"]
 tags: ["Swift"]
 draft: false
 ---

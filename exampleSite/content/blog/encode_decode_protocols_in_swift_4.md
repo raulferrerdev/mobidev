@@ -4,7 +4,7 @@ description: "Learn how to use the Encode and Decode protocols to pass informati
 image: "images/post/encodable_decodable_intro.jpg"
 thumbnail: "images/post/encodable_decodable_intro.jpg"
 date: 2017-11-25T18:19:25+06:00
-categories: ["Codable", "Swift"]
+categories: ["Swift basics"]
 tags: ["Swift"]
 draft: false
 ---

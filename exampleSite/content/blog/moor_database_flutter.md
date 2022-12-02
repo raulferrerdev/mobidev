@@ -4,7 +4,7 @@ description: "Moor is one of the most used databases when developing application
 image: "images/post/moor_database_flutter.png"
 thumbnail: "images/post/moor_database_flutter.png"
 date: 2020-12-30T18:19:25+06:00
-categories: ["Flutter"]
+categories: ["Flutter basics"]
 tags: ["Flutter"]
 draft: false
 ---

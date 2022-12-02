@@ -4,7 +4,7 @@ description: "Learn how to automate the deployment of your applications through 
 image: "images/post/automatize_deployment_bitrise.png"
 thumbnail: "images/post/automatize_deployment_bitrise.png"
 date: 2020-04-28T18:19:25+06:00
-categories: ["CI/CD"]
+categories: ["Deployment"]
 tags: ["Swift"]
 draft: false
 ---

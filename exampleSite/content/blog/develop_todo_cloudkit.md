@@ -3,7 +3,7 @@ title: "Develop a to-do app with CloudKit"
 description: ""
 image: "images/post/develop_todo_cloudkit.png"
 date: 2020-03-18T18:19:25+06:00
-categories: ["CloudKit", "Swift It yourself"]
+categories: ["Swift It yourself", "Framework"]
 tags: ["SIY", "Swift"]
 draft: false
 ---
