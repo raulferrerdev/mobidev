@@ -27,7 +27,7 @@ email = "developer.blog@icloud.com"
 # contact form action
 # contact_form_action = "#" # contact form works with https://formspree.io
 # search
-search = true
+search = false
 
 # featured post title
 featured_post_title = "Sections"

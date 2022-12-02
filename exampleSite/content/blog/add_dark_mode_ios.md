@@ -6,6 +6,7 @@ thumbnail: "images/post/add_dark_mode_ios.jpg"
 date: 2020-01-04T22:19:25+06:00
 categories: ["Swift", "Xcode"]
 tags: ["Swift"]
+section: ["Swift"]
 draft: false
 ---
 
