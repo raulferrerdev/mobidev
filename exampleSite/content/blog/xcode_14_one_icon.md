@@ -14,13 +14,20 @@ But now with Xcode 14, as Apple announced at WWDC 2022, it will only be necessar
 #### How to configure an application with a single icon
 Once we have created our project with Xcode 14, we go to the Assets catalog. From the outset, we will see the same configuration as before, that is, a template to fill with the different sizes of icons.
 
-Template with icons of different sizes.
+{{< image src="images/post/xcode_14_one_icon_1.png">}}
+
 Therefore, we have the option of filling them one by one with the different icons.
+
+{{< image src="images/post/xcode_14_one_icon_2.png">}}
 
 AppIcon asset filled with icons of different sizes.
 But, Xcode 14 introduces the option to use a single 1024x1024px icon. To do this, we simply go to the column on the right (to the Attributes inspector) and, in Device, select Single Size (for example, in the case of iOS).
 
+{{< image src="images/post/xcode_14_one_icon_3.png">}}
+
 In this way, the icon template is reduced to a single case, that of 1024x1024px.
+
+{{< image src="images/post/xcode_14_one_icon_4.png">}}
 
 #### Limitations
 This new functionality of Xcode 14 has some limitations:

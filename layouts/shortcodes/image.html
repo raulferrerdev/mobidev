@@ -64,7 +64,9 @@
 </figure>
 {{ else }}
 <!-- image tag -->
-<img loading="lazy" decoding="async" class="{{.Get `c`}} {{.Scratch.Get `image-position`}}" width="{{.Get `w` | default $imageWidth }}" height="{{.Get `h` | default $imageHeight}}" src="{{.Scratch.Get `image`}}" alt="{{.Get `alt`}}" onerror="this.onerror='null';this.src='{{.Scratch.Get `image_fallback`}}'">
+<div style="text-align: center;">
+  <img loading="lazy" decoding="async" class="{{.Get `c`}} {{.Scratch.Get `image-position`}}" width="{{.Get `w` | default $imageWidth }}" height="{{.Get `h` | default $imageHeight}}" src="{{.Scratch.Get `image`}}" alt="{{.Get `alt`}}" onerror="this.onerror='null';this.src='{{.Scratch.Get `image_fallback`}}'">
+</div>
 {{ end }}
 
 <!-- image from content folder -->
