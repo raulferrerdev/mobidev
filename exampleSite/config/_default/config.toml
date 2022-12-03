@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://codderlly.com/"
-title = "Codderlly | A Developement Blog about iOS, Xcode, Swift, SwiftUI, Flutter and Development practices."
-description = "A Developement Blog about iOS, Xcode, Swift, SwiftUI, Flutter and Development practices. Learn how to build better apps, with theory and examples in all posts."
+title = "Codderlly: Learn iOS, Xcode, Swift, SwiftUI and Flutter."
+description = "A Developement Blog about iOS, Xcode, Swift, SwiftUI and Flutter. Learn how to build better apps."
 theme = "geeky-hugo"
 languageName = "En"
 languageCode = "en-us"

@@ -15,7 +15,7 @@ logo_text = "Codderlly"
 # navbar fixed to top
 navbar_fixed = false
 # OpenGraph / Twitter Card metadata
-description = "A Developement Blog about iOS, Xcode, Swift, SwiftUI, Flutter and Development practices. Learn how to build better apps, with theory and examples in all posts."
+description = "A Developement Blog about iOS, Xcode, Swift, SwiftUI and Flutter. Learn how to build better apps."
 author = "Raúl Ferrer"
 image = "images/favicon.png" # this image will be used as fallback if a page has no image of its own
 twittercard = "images/twittercard.png" # this image will be used as fallback if a page has no image of its own
