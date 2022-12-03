@@ -1,8 +1,8 @@
 ---
 title: "Improve your Flutter Navigation with Routes"
 description: "Learn how to use Routes to navigate between the different pages that make up an application developed with Flutter."
-image: "images/post/flutter_navigation_routes.png"
-thumbnail: "images/post/flutter_navigation_routes.png"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2020-03-08T18:19:25+06:00
 categories: ["Flutter basics"]
 tags: ["Flutter"]

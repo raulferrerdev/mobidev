@@ -1,8 +1,8 @@
 ---
 title: "What is MetricKit?"
 description: "MetricKit is an Apple framework, introduced with iOS 13, that allows us to obtain information about battery behavior and application performance."
-image: "images/post/what_is_metrickit.jpg"
-thumbnail: "images/post/what_is_metrickit.jpg"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2019-10-26T18:19:25+06:00
 categories: ["Swift basics", "Framework"]
 tags: ["Swift"]

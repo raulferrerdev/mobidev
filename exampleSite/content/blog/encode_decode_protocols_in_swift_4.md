@@ -1,8 +1,8 @@
 ---
 title: "Encode/Decode protocols in Swift 4 (Introduction)"
 description: "Learn how to use the Encode and Decode protocols to pass information in JSON format to a struct or class and vice versa."
-image: "images/post/encodable_decodable_intro.jpg"
-thumbnail: "images/post/encodable_decodable_intro.jpg"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2017-11-25T18:19:25+06:00
 categories: ["Swift basics"]
 tags: ["Swift"]

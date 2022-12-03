@@ -1,8 +1,8 @@
 ---
 title: "Learn how to build in Flutter: Widgets"
 description: "Widgets are the main components in an application developed with Flutter. Learn what types there are, how to create them and how to use them."
-image: "images/post/learn_how_build_widgets_flutter.png"
-thumbnail: "images/post/learn_how_build_widgets_flutter.png"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2020-01-12T18:19:25+06:00
 categories: ["Flutter basics"]
 tags: ["Flutter"]

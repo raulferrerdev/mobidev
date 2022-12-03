@@ -1,8 +1,8 @@
 ---
 title: "Xcode 14: One Icon to Rule Them All!"
 description: "With Conn Xcode 14 it is no longer necessary to use an application icon for each of the required sizes (depending on where the icon is to be displayed), only one is required. Let's see how to do it."
-image: ""
-thumbnail: ""
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2022-12-02T22:19:25+06:00
 categories: ["Swift basics" , "Design"]
 tags: ["Swift"]
@@ -11,7 +11,9 @@ draft: false
 How many times have we found ourselves preparing countless icons of all the sizes required by Apple for our applications: sizes for iPhone and iPad and for different utilities — Spotlight, Notifications, App…
 Generating so many icons of different sizes was tedious if you did it manually, and something simpler and you used an icon generator (which from an icon, normally 1024x1024px, generated all the necessary sizes).
 But now with Xcode 14, as Apple announced at WWDC 2022, it will only be necessary to configure the Assets catalog of our application so that it only uses a 1024x1024px icon. Xcode 14 will take care of resizing this icon according to its needs.
-#### How to configure an application with a single icon
+
+#### How to configure an application with a single icon
+
 Once we have created our project with Xcode 14, we go to the Assets catalog. From the outset, we will see the same configuration as before, that is, a template to fill with the different sizes of icons.
 
 {{< image src="images/post/xcode_14_one_icon_1.png">}}

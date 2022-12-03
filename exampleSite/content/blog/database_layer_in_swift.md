@@ -1,8 +1,8 @@
 ---
 title: "Database layer in Swift"
 description: "Learn how to separate the Database layer of an application from the rest of the components, so that you can change the type of database used (for example, from CoreData to Realm) without the need for major code changes."
-image: "images/post/database_layer_in_swift.jpg"
-thumbnail: "images/post/database_layer_in_swift.jpg"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2018-12-20T18:19:25+06:00
 categories: ["Swift basics"]
 tags: ["Swift"]

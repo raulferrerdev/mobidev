@@ -1,8 +1,8 @@
 ---
 title: "Do you want to learn to program with Flutter? Get ready!"
 description: "Flutter is an SDK that allows us to create cross-platform applications (iOS, macOS, Android, Windows, Linux) with a single code base. Enter the world of Flutter with this post."
-image: "images/post/learn_programming_with_flutter_intro.jpg"
-thumbnail: "images/post/learn_programming_with_flutter_intro.jpg"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2019-12-28T18:19:25+06:00
 categories: ["Flutter basics"]
 tags: ["Flutter"]

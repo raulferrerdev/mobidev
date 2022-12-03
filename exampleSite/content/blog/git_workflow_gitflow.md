@@ -1,8 +1,8 @@
 ---
 title: "Git and workflow with GitFlow"
 description: "Learn how to use Git and Gitflow to be able to control changes in the code of your projects. Understand what branch, checkout, clone, or commit mean."
-image: "images/post/git_workflow_gitflow.png"
-thumbnail: "images/post/git_workflow_gitflow.png"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2021-07-20T18:19:25+06:00
 categories: ["Deployment"]
 tags: ["Swift"]

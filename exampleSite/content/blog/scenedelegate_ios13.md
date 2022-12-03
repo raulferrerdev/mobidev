@@ -1,8 +1,8 @@
 ---
 title: "SceneDelegate on iOS 13"
 description: "iOS 13 hga introduced SceneDelegate and the new concept of scene. Here's what this means and how it affects AppleDelegate."
-image: "images/post/scenedelegate_ios_13.png"
-thumbnail: "images/post/scenedelegate_ios_13.png"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2020-03-07T18:19:25+06:00
 categories: ["Swift basics"]
 tags: ["Swift"]

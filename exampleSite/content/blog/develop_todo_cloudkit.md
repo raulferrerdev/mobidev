@@ -1,7 +1,8 @@
 ---
 title: "Develop a to-do app with CloudKit"
 description: ""
-image: "images/post/develop_todo_cloudkit.png"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2020-03-18T18:19:25+06:00
 categories: ["Swift It yourself", "Framework"]
 tags: ["SIY", "Swift"]

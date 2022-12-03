@@ -1,8 +1,8 @@
 ---
 title: "SOLID principles: Application to Swift development"
 description: "Learn the SOLID principles and how to apply them in the development of your applications. SOLID principles improve our code, making it cleaner, scalable and testable."
-image: "images/post/solid_principles_swift.png"
-thumbnail: "images/post/solid_principles_swift.png"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2020-02-07T18:19:25+06:00
 categories: ["Architecture"]
 tags: ["Swift"]

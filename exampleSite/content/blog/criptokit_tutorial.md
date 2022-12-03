@@ -1,8 +1,8 @@
 ---
 title: "CryptoKit tutorial. How to use CryptoKit on iOS13 apps"
 description: "Cryptokit is an Apple library that allows us to work with encryption in our applications, generate public and private keys... Look in this post at some of its most interesting possibilities."
-image: "images/post/criptokit_tutorial.png"
-thumbnail: "images/post/criptokit_tutorial.png"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2020-02-17T18:19:25+06:00
 categories: ["Framework"]
 tags: ["Swift"]

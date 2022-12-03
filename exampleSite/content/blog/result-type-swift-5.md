@@ -1,8 +1,8 @@
 ---
 title: "Result type in Swift 5"
 description: "Swift 5 has introduced the Result type, a new feature that will allow us to improve error handling in asynchronous APIs."
-image: "images/post/result_type_in_swift_5.png"
-thumbnail: "images/post/result_type_in_swift_5.png"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2018-04-06T18:19:25+06:00
 categories: ["Swift basics"]
 tags: ["Swift"]

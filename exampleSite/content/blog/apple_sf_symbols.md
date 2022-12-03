@@ -1,8 +1,8 @@
 ---
 title: "Use the new Apple SF Symbols in your applications"
 description: "Discover how to add hundreds of icons to your applications using SF Symbols and how to customize them."
-image: "images/post/apple_sf_symbols.png"
-thumbnail: "images/post/apple_sf_symbols.png"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2020-03-24T18:19:25+06:00
 categories: ["Swift basics" , "Design"]
 tags: ["Swift"]

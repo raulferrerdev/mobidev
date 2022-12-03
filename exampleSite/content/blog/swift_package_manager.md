@@ -1,8 +1,8 @@
 ---
 title: "How to use Swift Package Manager"
 description: "Swift Package Manager is the dependency management solution developed by Apple and will compete with Carthage and CocoaPods. In this post I explain how to apply SPM in your projects."
-image: "images/post/swift_package_manager.png"
-thumbnail: "images/post/swift_package_manager.png"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2020-04-13T18:19:25+06:00
 categories: ["Swift basics"]
 tags: ["Swift"]

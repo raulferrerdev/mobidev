@@ -1,8 +1,8 @@
 ---
 title: "Continuous Integration and Continuous Delivery (CI/CD) with GitHub Actions"
 description: "Github offers the possibility of adding Continuous Integration and Continuous Delivery to your projects thanks to Github Actions. Learn how to use this Github CI/CD for iOS."
-image: "images/post/cicd_github_actions.png"
-thumbnail: "images/post/cicd_github_actions.png"
+image: "images/twittercard.png"
+thumbnail: "images/twittercard.png"
 date: 2020-01-21T22:19:25+06:00
 categories: ["Deployment"]
 tags: ["Swift"]
