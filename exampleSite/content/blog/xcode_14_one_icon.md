@@ -1,6 +1,6 @@
 ---
 title: "Xcode 14: One Icon to Rule Them All!"
-description: "With Conn Xcode 14 it is no longer necessary to use an application icon for each of the required sizes (depending on where the icon is to be displayed), only one is required. Let's see how to do it."
+description: "With Xcode 14 it is no longer necessary to use an application icon for each of the required sizes (depending on where the icon is to be displayed), only one is required. Let's see how to do it."
 image: "images/twittercard.png"
 thumbnail: "images/twittercard.png"
 date: 2022-12-02T22:19:25+06:00
