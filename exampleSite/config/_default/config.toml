@@ -79,11 +79,11 @@ priority = 0.5
 filename = "sitemap.xml"
 ############################ Twitter Card ###########################
 [params]
-Twitter_Image = "/images/twitter_card.png"
+Twitter_Image = "images/twitter_card.png"
 Twitter_Site = "@RaulFerrer_dev"
-Image = "/images/twitter_card.png"
+Image = "images/twitter_card.png"
 author = "Raúl Ferrer"
 github = "https://github.com/raulferrerdev"
-og_image = "/images/twittercard.png"
+og_image = "images/twittercard.png"
 itename = "Codderlly"
 twitter = "@RaulFerrer_dev"

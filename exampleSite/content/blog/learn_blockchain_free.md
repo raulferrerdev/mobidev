@@ -35,7 +35,7 @@ This course will introduce you to Blockchain technology and some associated conc
 
 This [introductory course to Blockchain](https://www.coursera.org/learn/blockchain-basics), which is part of a Coursera specialization, does not offer information on basic concepts of Blockchain technology: Blockchain, Smart contracts, algorithms, chain forking...
 
-##### 4. Ethereum Development Course - Blockchain at Berkeley
+##### 4. Ethereum Development Course - Blockchain at Berkeley
 
 To get started with [Blockchain development on Ethereum](https://www.udemy.com/course/ethereum-development-course-blockchain-at-berkeley), you can start with this free course from Udemy. This course comes from the Berkeley Organization.
 

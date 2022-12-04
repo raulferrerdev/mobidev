@@ -106,7 +106,8 @@
 <meta property="twitter:description" content="{{ .Description }}">
 <meta property="twitter:title" content="{{ .Title }}">
 {{ if .Params.thumbnail }}
-<meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+{{ $twitterImage:= resources.Get "images/twittercard.png" }}
+<meta property="twitter:image" content="{{$twitterImage.RelPermalink}}">
 {{ end }}
 <!-- End of Twitter -->
 
