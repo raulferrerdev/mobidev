@@ -11,7 +11,7 @@ logo_width = "300x"
 logoColor_width = "200x"
 
 # logo text will only show when logo is missing.
-logo_text = "Codderlly"
+logo_text = "Appcodify"
 # navbar fixed to top
 navbar_fixed = false
 # OpenGraph / Twitter Card metadata
@@ -53,7 +53,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [banner]
 enable = true
 title_large = "Welcome **!**"
-title_small = "to Codderlly"
+title_small = "to Appcodify"
 image = ""
 background_image = ""
 content = "**If you like the world of software development, maybe here you will find what you are looking for.**"
