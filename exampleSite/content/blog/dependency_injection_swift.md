@@ -10,7 +10,7 @@ draft: false
 ---
 If you are like me, when developing an application you are always looking (although sometimes it is difficult) to use a series of ‘rules’ that help you to make the code cleaner, be as uncoupled as possible, be scalable …
 
-In a previous article I already talked about [SOLID](https://codderlly.com/blog/solid_principles_swift/) principles and how to apply them with Swift. In this article I am going to discuss a pattern that will allow us to reduce the coupling of our code and that will make it more easily testable: **Dependency Injection**.
+In a previous article I already talked about [SOLID](https://appcodify.com/blog/solid_principles_swift/) principles and how to apply them with Swift. In this article I am going to discuss a pattern that will allow us to reduce the coupling of our code and that will make it more easily testable: **Dependency Injection**.
 #### But, what is dependency injection?
 
 If we go directly to the definition that [Wikipedia](https://en.wikipedia.org/wiki/Dependency_injection) gives us, we find the following:

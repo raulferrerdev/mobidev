@@ -2,12 +2,12 @@
 # favicon
 favicon = "images/favicon.png"
 # logo
-logo = "images/logo.png"
-logoColor = "images/Logo-red.png"
+logo = ""
+logoColor = ""
 
 # use `x` with logo_width, example: "100x".
 # Note: logo_width is not work with .svg file
-logo_width = "350x"
+logo_width = "300x"
 logoColor_width = "200x"
 
 # logo text will only show when logo is missing.

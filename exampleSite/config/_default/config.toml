@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://codderlly.com/"
+baseURL = "https://appcodify.com/"
 title = "Codderlly: Learn iOS, Xcode, Swift, SwiftUI and Flutter."
 description = "A Developement Blog about iOS, Xcode, Swift, SwiftUI and Flutter. Learn how to build better apps."
 theme = "geeky-hugo"
